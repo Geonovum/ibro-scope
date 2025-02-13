@@ -1,1 +1,1 @@
-TODO: vul in abstract.md een abstract in.
+Dit document beschrijft de inhoudelijke scope van het informatiemodel voor de Integrale bronhouderregistratie. Het schetst de stakeholders, relevante bestaande registraties, wettelijk kader, bestaande relevante standaarden en softwaresystemen en geeft een beknopte inhoudelijke beschrijving van het beoogde informatiemodel.
