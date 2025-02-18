@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Integrale bronhouderregistratie (IBRO)",
+  title: "Integrale Bronregistratie Objecten (IBRO)",
   subtitle: "Scopedocument",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
