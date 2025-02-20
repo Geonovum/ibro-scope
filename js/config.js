@@ -86,6 +86,63 @@ let respecConfig = {
       status: "Definitief",
       publisher: "Geonovum",
       date: "2024-06-13"
-    }
+    }, 
+    EMSO: {
+      id: "EMSO",
+      title: "DiS Geo: Eisen aan model samenhangende objectenregistratie",
+      href: "https://docs.geostandaarden.nl/disgeo/emso/",
+      status: "Versie ter vaststelling",
+      publisher: "Geonovum",
+      date: "2021-06-16"
+    },
+    CityGML: {
+      id: "CityGML",
+      title:    "OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0",
+      href:     "https://docs.ogc.org/is/20-010/20-010.html",
+      status:   "Published",
+      publisher:"Open Geospatial Consortium",
+      editors:  ["Thomas H. Kolbe", "Tatjana Kutzner", "Carl Stephen Smyth", "Claus Nagel", "Carsten Roensdorf", "Charles Heazel"],
+      date:     "2021-09-13",
+    },
+    NLSBB: {
+      id: "NLSBB",
+      title: "NL-SBB - Standaard voor het beschrijven van begrippen",
+      href: "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
+      status: "Definitief",
+      publisher: "Geonovum",
+      date: "2024-10-10"
+    },
+    "NEN3610": 
+      {  
+        title:      "NEN 3610:2022 nl - BBasismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+        href:       "https://www.nen.nl/nen-3610-2022-nl-296137",
+        status:     "Definitief",
+        publisher:  "NEN",
+        date:       "2022-06-01",
+    },
+    "disgeo-mod": 
+      {
+        title:      "Modelleerprincipes samenhangende objectenregistratie",
+        href:       "https://geonovum.github.io/disgeo-imsor/modelleerprincipes/",
+        status:     "Werkversie",
+        date:       "2023-02-17",
+        publisher:  "Geonovum",
+      },
+    "disgeo-arch":
+      {
+        title:      "DiS Geo: Architectuurbeschrijving Voorzieningen Samenhangende Objectenregistratie",
+        href:       "https://docs.geostandaarden.nl/disgeo/arch/",
+        status:     "Versie ter vaststelling",
+        date:       "2021-06-16",
+        publisher:  "Geonovum",
+      },
+    "disgeo-gen":
+        {
+          title:      "Overzicht generieke onderwerpen voor DisGeo informatiemodellering",
+          href:       "https://geonovum.github.io/disgeo-imsor/documentatie",
+          status:     "werkversie",
+          date:       "2023-02-17",
+          publisher:  "Geonovum",
+        },
   }
 };
