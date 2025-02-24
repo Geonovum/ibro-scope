@@ -60,7 +60,7 @@ let respecConfig = {
         name: "Linda van den Brink",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
-      }
+      },
       {
         name: "Dick Krijtenburg",
         company: "Geonovum",
