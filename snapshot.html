@@ -1390,7 +1390,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
-<body class="h-entry informative"><div class="head">
+<body class="h-entry informative toc-inline"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Scopedocument Informatiemodel IBRO</h1>
     
@@ -1400,12 +1400,8 @@ img.license{float:left;padding-right:5px;background:0 0}
       <time class="dt-published" datetime="2025-05-14">14 mei 2025</time>
     </h2>
     <dl>
-      <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/ibro/def-al-scope-20250514">https://docs.geostandaarden.nl/ibro/def-al-scope-20250514</a>
-            </dd>
-      <dt>Laatst gepubliceerde versie:</dt><dd>
-              <a href="https://docs.geostandaarden.nl/ibro/scope/">https://docs.geostandaarden.nl/ibro/scope/</a>
-            </dd>
+      
+      
       <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/ibro-scope/">https://geonovum.github.io/ibro-scope/</a></dd>
       
       
@@ -1648,44 +1644,6 @@ behoeve van de informatiemodellering voor de IBRO. Samen vormen deze keuzes de s
   </li>
       </ul></section>
   
-
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
 
 
 
