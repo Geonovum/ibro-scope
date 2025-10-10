@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.3.0">
+<meta name="generator" content="ReSpec 35.4.1">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -101,7 +101,7 @@ img.license{float:left;padding-right:5px;background:0 0}
     color: white;
     white-space: nowrap;
     z-index: 1;
-    background-color: #045D9F;
+    background-color: #FF0000;
   }
 </style>
 <script type="text/javascript">
@@ -1362,11 +1362,14 @@ img.license{float:left;padding-right:5px;background:0 0}
     }
   },
   "title": "Scopedocument Informatiemodel IBRO",
-  "specStatus": "def",
-  "specType": "AL",
+  "specStatus": "wv",
+  "specType": "al",
   "pubDomain": "ibro",
   "shortName": "scope",
-  "publishDate": "2025-05-14",
+  "publishDate": "2025-05-15",
+  "publishVersion": "[]]",
+  "previousPublishDate": "2025-05-14",
+  "previousMaturity": "def",
   "editors": [
     {
       "name": "Dick Krijtenburg",
@@ -1396,17 +1399,21 @@ img.license{float:left;padding-right:5px;background:0 0}
     
     <h2>
       Geonovum Algemeen<br>
-      Vastgestelde versie
-      <time class="dt-published" datetime="2025-05-14">14 mei 2025</time>
+      Werkversie
+      <time class="dt-published" datetime="2025-05-15">10 oktober 2025</time>
     </h2>
     <dl>
-      
-      
+      <dt>Deze versie:</dt><dd class="status">
+              <a class="u-url status" href="https://geonovum.github.io/ibro-scope/">https://geonovum.github.io/ibro-scope/</a>
+            </dd>
+      <dt>Laatst gepubliceerde versie:</dt><dd>
+              <a href="https://docs.geostandaarden.nl/ibro/scope/">https://docs.geostandaarden.nl/ibro/scope/</a>
+            </dd>
       <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/ibro-scope/">https://geonovum.github.io/ibro-scope/</a></dd>
       
       
       
-      
+      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/ibro/def-al-scope-20250514">https://docs.geostandaarden.nl/ibro/def-al-scope-20250514</a></dd>
       
       <dt>Redacteur:</dt>
       <dd class="editor p-author h-card vcard">
@@ -1439,7 +1446,7 @@ img.license{float:left;padding-right:5px;background:0 0}
   </div>
   <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document beschrijft de inhoudelijke scope van het informatiemodel voor de Integrale Bronregistratie Objecten, die als proefproject wordt ontwikkeld door de gemeente Rotterdam in het kader van het <a href="https://www.rotterdam.nl/mercator">programma Mercator</a>. Dit document schetst de stakeholders, relevante bestaande registraties, wettelijk kader, bestaande relevante standaarden en softwaresystemen en geeft een beknopte inhoudelijke beschrijving van het beoogde informatiemodel.</p>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#probleemstelling"><bdi class="secno">1.1 </bdi>Probleemstelling</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doelstelling"><bdi class="secno">1.1.1 </bdi>Doelstelling</a></li><li class="tocline"><a class="tocxref" href="#planning-en-fasering"><bdi class="secno">1.1.2 </bdi>Planning en Fasering</a></li><li class="tocline"><a class="tocxref" href="#positionering"><bdi class="secno">1.1.3 </bdi>Positionering</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#context"><bdi class="secno">2. </bdi>Context</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bronhouders"><bdi class="secno">2.1 </bdi>Bronhouders</a></li><li class="tocline"><a class="tocxref" href="#afnemers"><bdi class="secno">2.2 </bdi>Afnemers</a></li><li class="tocline"><a class="tocxref" href="#beheerders"><bdi class="secno">2.3 </bdi>Beheerders</a></li><li class="tocline"><a class="tocxref" href="#bestaande-registraties"><bdi class="secno">2.4 </bdi>Bestaande registraties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#beschrijving-van-de-ibro"><bdi class="secno">3. </bdi>Beschrijving van de IBRO</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#relevante-werkprocessen"><bdi class="secno">3.1 </bdi>Relevante werkprocessen</a></li><li class="tocline"><a class="tocxref" href="#bestaande-softwaresystemen"><bdi class="secno">3.2 </bdi>Bestaande softwaresystemen</a></li><li class="tocline"><a class="tocxref" href="#relevante-inhoudelijke-standaarden"><bdi class="secno">3.3 </bdi>Relevante inhoudelijke standaarden</a></li><li class="tocline"><a class="tocxref" href="#standaarden-voor-informatiemodellering"><bdi class="secno">3.4 </bdi>Standaarden voor informatiemodellering</a></li><li class="tocline"><a class="tocxref" href="#relevante-architectuur"><bdi class="secno">3.5 </bdi>Relevante architectuur</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inhoudelijke-keuzes-op-hoofdlijnen"><bdi class="secno">4. </bdi>Inhoudelijke keuzes op hoofdlijnen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">4.1 </bdi>Aanpak</a></li><li class="tocline"><a class="tocxref" href="#afbakening"><bdi class="secno">4.2 </bdi>Afbakening</a></li><li class="tocline"><a class="tocxref" href="#inhoud-en-prioritering"><bdi class="secno">4.3 </bdi>Inhoud en prioritering</a></li><li class="tocline"><a class="tocxref" href="#buiten-scope"><bdi class="secno">4.4 </bdi>Buiten scope</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">5. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#probleemstelling"><bdi class="secno">1.1 </bdi>Probleemstelling</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doelstelling"><bdi class="secno">1.1.1 </bdi>Doelstelling</a></li><li class="tocline"><a class="tocxref" href="#planning-en-fasering"><bdi class="secno">1.1.2 </bdi>Planning en Fasering</a></li><li class="tocline"><a class="tocxref" href="#positionering"><bdi class="secno">1.1.3 </bdi>Positionering</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#context"><bdi class="secno">2. </bdi>Context</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bronhouders"><bdi class="secno">2.1 </bdi>Bronhouders</a></li><li class="tocline"><a class="tocxref" href="#afnemers"><bdi class="secno">2.2 </bdi>Afnemers</a></li><li class="tocline"><a class="tocxref" href="#beheerders"><bdi class="secno">2.3 </bdi>Beheerders</a></li><li class="tocline"><a class="tocxref" href="#bestaande-registraties"><bdi class="secno">2.4 </bdi>Bestaande registraties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#beschrijving-van-de-ibro"><bdi class="secno">3. </bdi>Beschrijving van de IBRO</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#relevante-werkprocessen"><bdi class="secno">3.1 </bdi>Relevante werkprocessen</a></li><li class="tocline"><a class="tocxref" href="#bestaande-softwaresystemen"><bdi class="secno">3.2 </bdi>Bestaande softwaresystemen</a></li><li class="tocline"><a class="tocxref" href="#relevante-inhoudelijke-standaarden"><bdi class="secno">3.3 </bdi>Relevante inhoudelijke standaarden</a></li><li class="tocline"><a class="tocxref" href="#standaarden-voor-informatiemodellering"><bdi class="secno">3.4 </bdi>Standaarden voor informatiemodellering</a></li><li class="tocline"><a class="tocxref" href="#relevante-architectuur"><bdi class="secno">3.5 </bdi>Relevante architectuur</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inhoudelijke-keuzes-op-hoofdlijnen"><bdi class="secno">4. </bdi>Inhoudelijke keuzes op hoofdlijnen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">4.1 </bdi>Aanpak</a></li><li class="tocline"><a class="tocxref" href="#afbakening"><bdi class="secno">4.2 </bdi>Afbakening</a></li><li class="tocline"><a class="tocxref" href="#inhoud-en-prioritering"><bdi class="secno">4.3 </bdi>Inhoud en prioritering</a></li><li class="tocline"><a class="tocxref" href="#buiten-scope"><bdi class="secno">4.4 </bdi>Buiten scope</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">5. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
 
   
   <section id="inleiding"><div class="header-wrapper"><h2 id="x1-inleiding"><bdi class="secno">1. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 1."></a></div>
@@ -1890,4 +1897,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Algemeen - Vastgestelde versie</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Algemeen - Werkversie</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
